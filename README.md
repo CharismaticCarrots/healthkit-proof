@@ -14,3 +14,8 @@ In `Healthkit.js` houses the permissions for using AppleHealthKit through react 
 
 The context provider is like the store Provider, and is wrapped around the entire component in `App.js`. 
 
+
+if you pull, you will need to rebuild the app:
+
+expo prebuild --clean
+expo run:ios
